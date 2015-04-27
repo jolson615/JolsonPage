@@ -1,0 +1,160 @@
+/*fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+/*background styling*/
+
+#background {
+	background: url(../images/skulls.png);
+	clear: left;	
+}
+
+/*formatting fixes*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.heightfix:before {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/*buffer pushes the top of the content away from the header*/
+
+#buffer {
+	height: 80px;
+}
+
+
+/*nav bar styling*/
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	border-bottom: 1px solid #ccc;
+	background-color: white;
+}
+
+#nav_bar {
+	text-align: center;
+	}
+
+	#nav_bar nav a {
+		display: inline-block;
+		width: 15%;
+		height: 100%;
+		margin: 0;
+		text-transform: uppercase;
+		color: black;
+		vertical-align: top;
+		text-align: center;
+		text-decoration: none;
+		font: 20px "Trebuchet MS", Arial, sans-serif;
+	}
+
+	#nav_bar nav a div {
+		margin: 10% 0;
+	}
+
+	#nav_bar nav a.selected {
+		background: black;
+		color: white;
+	}
+
+	#nav_bar nav a:hover {
+		color:white;
+		/* gradient */
+		background: black;
+	}
+
+/*wrapper contricts content to a certain width*/
+
+.wrapper {
+	width: 760px;
+	margin: auto;
+}
+
+/*general styling*/
+
+section {
+	background: white;
+	margin: 10px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 20px;
+}
+
+li {
+	padding-top: 20px;
+}
+
+h1, h2 {
+	font-family: "Amatic SC", Amatic, cursive;
+}
+
+p {
+	margin: 1.4em 0;
+	font-family: Garamond; serif;
+}
+
+figcaption {
+	text-align: right;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*color-focused styling*/
+
+.shadow {
+	box-shadow: 0 2px 5px #333;
+}
+
+/*column styling... just in case*/
+
+.col-1 {
+  float: left;
+  width: 26%;
+  padding: 0 3%;
+  margin-left: 2%;
+}
+
+.col-2 {
+  float: left;
+  width: 60%;
+  padding: 0 3%;
+  margin-left: 2%;
+}
+
+.col-3 {
+  float: left;
+  width: 94%;
+  padding: 0 3%;
+  margin-left: 0;
+}
+
+.first {
+  margin-left: 0;
+  clear: both;
+}
+
+/*unique styling*/
+
+#resume {
+	font: serif;
+	font-size: .9em;
+}
